@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.git/
+public/
+coverage/
+dist/
+build/
+.turbo/
+*.log
+*.lock
+tsconfig.tsbuildinfo
