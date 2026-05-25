@@ -89,18 +89,18 @@ export function Hero() {
               potencial do seu filho.
             </motion.p>
 
-            <motion.div variants={heroItem} className="flex flex-col min-[400px]:flex-row flex-wrap items-stretch min-[400px]:items-center gap-3 w-full sm:w-auto">
-              <Magnetic strength={0.25} className="w-full min-[400px]:w-auto">
+            <motion.div variants={heroItem} className="flex flex-row items-center gap-2 w-full sm:w-auto">
+              <Magnetic strength={0.25} className="flex-1 sm:flex-initial">
                 <a
                   href="#contato"
-                  className="btn-yellow flex items-center justify-center gap-2 text-base px-7 py-4 w-full min-[400px]:w-auto"
+                  className="btn-yellow flex items-center justify-center gap-1.5 text-[11px] min-[360px]:text-xs min-[400px]:text-sm sm:text-base px-2.5 min-[360px]:px-4 sm:px-7 py-3 sm:py-4 w-full sm:w-auto font-bold text-center"
                 >
-                  Agende uma Visita <ArrowRight className="w-4 h-4 shrink-0" />
+                  Agende uma Visita <ArrowRight className="w-3 h-3 min-[360px]:w-4 min-[360px]:h-4 shrink-0" />
                 </a>
               </Magnetic>
               <a
                 href="#matriculas"
-                className="btn-ghost flex items-center justify-center text-base px-7 py-4 w-full min-[400px]:w-auto"
+                className="btn-ghost flex-1 sm:flex-initial flex items-center justify-center text-[11px] min-[360px]:text-xs min-[400px]:text-sm sm:text-base px-2.5 min-[360px]:px-4 sm:px-7 py-3 sm:py-4 w-full sm:w-auto font-bold text-center border-slate-300 hover:border-brand-blue"
               >
                 Conheça as Matrículas
               </a>
